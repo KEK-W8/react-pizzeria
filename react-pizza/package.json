@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
+    "json-server": "^0.16.3",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
     "prop-types": "^15.7.2",
@@ -19,8 +21,10 @@
   },
   "scripts": {
     "serve": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "json-server": "json-server --watch public/db.json --port=3004"
   },
+  "proxy": "http://localhost:3004",
   "eslintConfig": {
     "extends": [
       "react-app"
