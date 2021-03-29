@@ -7,7 +7,6 @@
     "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^0.19.1",
     "json-server": "^0.16.3",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
@@ -26,12 +25,20 @@
     "serve": "react-scripts start",
     "build": "react-scripts build",
     "start": "node server.js",
-    "json-server": "json-server --watch public/db.json --port=3004"
+    "json-server": "json-server --watch public/db.json --port=8000"
   },
   "eslintConfig": {
     "extends": [
       "react-app"
     ]
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:8000",
+      "pathRewrite": {
+        "^/api": "/"
+      }
+    }
   },
   "browserslist": {
     "production": [
