@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 import Button from "./Button.jsx";
 
-import pizzaLogo from "../assets/img/pizza-logo.svg";
+import reactLogo from "../assets/img/react-logo.png";
 
 function Header() {
   const { totalPrice, totalCount } = useSelector(({ cart }) => ({
@@ -17,7 +17,7 @@ function Header() {
       <div className="container">
         <Link to="/">
           <div className="header__logo">
-            <img width="38" src={pizzaLogo} alt="Pizza logo" />
+            <img width="38" src={reactLogo} alt="React logo" />
             <div>
               <h1>React Pizza</h1>
               <p>веб-пиццерия на react.js</p>
