@@ -3,7 +3,7 @@ module.exports = function (app) {
   app.use(
     "/api",
     createProxyMiddleware({
-      target: "https://blooming-dawn-64438.herokuapp.com/api",
+      target: "http://localhost:8000",
       changeOrigin: true,
     })
   );
