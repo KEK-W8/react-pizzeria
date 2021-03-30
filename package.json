@@ -22,9 +22,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "serve": "react-scripts start",
-    "build": "react-scripts build",
-    "start": "node server.js",
+    "start": "react-scripts start",
     "json-server": "json-server --watch public/db.json --port=8000"
   },
   "eslintConfig": {
@@ -32,14 +30,7 @@
       "react-app"
     ]
   },
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:8000",
-      "pathRewrite": {
-        "^/api": "/"
-      }
-    }
-  },
+  "proxy": "http://localhost:8000",
   "browserslist": {
     "production": [
       ">0.2%",
