@@ -11,7 +11,7 @@ function Header() {
       <div className="container">
         <Link to="/">
           <div className="header__logo">
-            <img width="38" src={reactLogo} alt="React logo" />
+            <img width="38" className="img" src={reactLogo} alt="React logo" />
             <div>
               <h1>React Pizza</h1>
               <p>веб-пиццерия на react.js</p>

@@ -8,6 +8,22 @@ body {
   @media (max-width: 768px) {
     padding: 20px 0;
   }
+
+  .img {
+    width: 42px;
+    height: 42px;
+    margin-right: 7px;
+    animation: logo-spin infinite 20s linear;
+
+    @keyframes logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
 }
 
 .page {
@@ -84,9 +100,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     @media (max-width: 768px) {
       flex-direction: column;
     }
+  }
+
+  .sticky-header {
+    top: 0px;
+    background-color: #fff;
+    margin: 10px 0;
+    position: sticky;
   }
 }
 

@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import Sort from "../components/Sort.jsx";
-import Categories from "../components/Categories.jsx";
+import SecondHeader from "../components/SecondHeader.jsx";
 import PizzaBlock from "../components/PizzaBlock.jsx";
 import LoadingBlock from "../components/LoadingBlock.jsx";
 
@@ -24,6 +23,8 @@ const sortFilters = [
 ];
 
 function Home() {
+  const [stickyHeader, setStickyHeader] = useState(false);
+
   const dispatch = useDispatch();
   const items = useSelector(({ pizzas }) => pizzas.items);
   const cartItems = useSelector(({ cart }) => cart.items);
@@ -46,15 +47,24 @@ function Home() {
     dispatch(addPizzaToCart(obj));
   }
 
+  function stickIt() {
+    if (window.scrollY >= 100) {
+      setStickyHeader(true);
+    } else {
+      setStickyHeader(false);
+    }
+  }
+  window.addEventListener("scroll", stickIt);
+
   return (
     <div className="container">
-      <div className="content__top">
-        <Categories
+      <div
+        className={stickyHeader ? "content__top sticky-header" : "content__top"}
+      >
+        <SecondHeader
           activeCategory={category}
           onClickCategory={onSelectCategory}
           categories={categories}
-        />
-        <Sort
           activeSortFilter={sortBy}
           onClickSortFilter={onSelectSortFilter}
           sortFilters={sortFilters}
