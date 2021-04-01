@@ -58,6 +58,183 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1,
+      "name": "Четыре сыра",
+      "category": 3,
+      "rating": 5,
+      "sizes": [
+        {
+          "id": 0,
+          "size": 25,
+          "price": 390,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/e6cee9f77d3f409d9e70809e9122aa6e_1875x1875.jpeg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://miro.medium.com/max/1400/1*pUEZd8z__1p-7ICIO1NZFA.png"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "size": 33,
+          "price": 590,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/f2e043398dad4bd5b42f4ef1990439c2_1875x1875.jpeg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/95f1a39790ac4743bf8159799e58fe12_1875x1875.jpeg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 40,
+          "price": 730,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/f7a1a9d55ff94bb0a30a5fffda9e7fac_1875x1875.jpeg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/8118ad1887004c7984495d398c12a78b_1875x1875.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Сырный цыпленок",
+      "category": 3,
+      "rating": 6,
+      "sizes": [
+        {
+          "id": 0,
+          "size": 25,
+          "price": 330,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/c0c5bc8c-cc08-41d9-8536-c5bfa3b841ea.jpg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://miro.medium.com/max/1400/1*pUEZd8z__1p-7ICIO1NZFA.png"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "size": 33,
+          "price": 500,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/40161bc3-b3d3-40bd-9fb3-2b65a0f9530f.jpg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/a580274d-67ae-4cdd-9802-683d390d62e1.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 40,
+          "price": 680,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/64e2ceea-db85-4edd-a40f-2f7d5fa0d430.jpg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/a580274d-67ae-4cdd-9802-683d390d62e1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Сырный цыпленок",
+      "category": 3,
+      "rating": 6,
+      "sizes": [
+        {
+          "id": 0,
+          "size": 25,
+          "price": 280,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/3f395eb9-59b8-457a-b22a-976707201a72.jpg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://miro.medium.com/max/1400/1*pUEZd8z__1p-7ICIO1NZFA.png"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "size": 33,
+          "price": 400,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/30110b98-d791-4be1-aa2f-f391fd02d206.jpg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/2a5de569-2a3b-4e49-9488-02cf4c4a9e8d.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 40,
+          "price": 550,
+          "types": [
+            {
+              "id": 0,
+              "type": "традиционное",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/2676d1e6-e0da-4785-975f-bd44a101cb15.jpg"
+            },
+            {
+              "id": 1,
+              "type": "тонкое",
+              "imageURL": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/04e1f941-2c0b-4485-bd7f-978025506e69.jpg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
