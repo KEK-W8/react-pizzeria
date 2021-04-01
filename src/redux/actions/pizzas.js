@@ -7,6 +7,13 @@ export function setLoaded(payload) {
   };
 }
 
+export function setPizzas(items) {
+  return {
+    type: "SET_PIZZAS",
+    payload: items,
+  };
+}
+
 export function fetchPizzas(sortBy, category) {
   return (dispatch) => {
     dispatch(setLoaded(false));
@@ -20,9 +27,23 @@ export function fetchPizzas(sortBy, category) {
   };
 }
 
-export function setPizzas(items) {
+export function setSize(size) {
   return {
-    type: "SET_PIZZAS",
-    payload: items,
+    type: "SET_SIZE",
+    payload: size,
+  };
+}
+
+export function setType(type) {
+  return {
+    type: "SET_TYPE",
+    payload: type,
+  };
+}
+
+export function setImage(image) {
+  return {
+    type: "SET_IMAGE",
+    payload: image,
   };
 }

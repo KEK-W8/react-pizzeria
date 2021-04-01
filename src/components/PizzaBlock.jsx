@@ -5,50 +5,51 @@ import classNames from "classnames";
 import Button from "./Button.jsx";
 
 function PizzaBlock({
-  id,
-  name,
-  imageUrl,
-  price,
-  types,
-  sizes,
+  // id,
+  // name,
+  // imageUrl,
+  // price,
+  // types,
+  // sizes,
   onClickAddPizza,
+  type,
+  size,
+  image
 }) {
-  const availableTypes = ["традиционное", "тонкое"];
-  const availableSizes = [26, 30, 40];
-
-  const [displayedImage, setDisplayedImage] = useState(imageUrl[0]);
-  const [selectedType, setSelectedType] = useState(types[0]);
-  const [selectedSize, setSelectedSize] = useState(sizes[1]);
+  const [selectedType, setSelectedType] = useState(type);
+  const [selectedSize, setSelectedSize] = useState(size);
+  const [displayedImage, setDisplayedImage] = useState(image);
 
   useEffect(() => {
     switch (selectedType) {
-      case types[1]:
-        setDisplayedImage(imageUrl[1]);
+      case type.id === 0:
+        setDisplayedImage(type.imageURL[0]);
         break;
-      default:
-        setDisplayedImage(imageUrl[0]);
+      case type.id === 1:
+          setDisplayedImage(type.imageURL[1]);
+          break;
     }
-  }, [selectedType, types, imageUrl]);
+  }, [selectedType, type]);
 
-  function handleSelectType(index) {
-    setSelectedType(index);
+  function handleSelectType(id) {
+    dispatch(selectType(id));
   }
-  function handleSelectSize(num) {
-    setSelectedSize(num);
-    if (num === 26) {
-      setSelectedSize(num);
-      setSelectedType(types[0]);
-    }
+  function handleSelectSize(id) {
+    dispatch(selectType(id));
+    // if (id === 0) {
+    //   setSelectedSize(id);
+    //   setSelectedType(types[0]);
+    // }
   }
-  function handleAddPizza() {
-    const obj = {
-      id,
-      name,
-      price,
-      imageUrl: imageUrl[displayedImage],
-      size: selectedSize,
-      type: availableTypes[selectedType],
-    };
+  // function handleAddPizza() {
+  //   const obj = {
+  //     id,
+  //     name,
+  //     price,
+  //     imageUrl: imageUrl[displayedImage],
+  //     size: selectedSize,
+  //     type: availableTypes[selectedType],
+  //   };
     onClickAddPizza(obj);
     window.alert(`Добавлено: ${obj.name} ${obj.size}см.`);
   }
@@ -97,19 +98,19 @@ function PizzaBlock({
   );
 }
 
-PizzaBlock.propTypes = {
-  name: PropTypes.string.isRequired,
-  imageUrl: PropTypes.arrayOf(PropTypes.string).isRequired,
-  price: PropTypes.number.isRequired,
-  types: PropTypes.arrayOf(PropTypes.number).isRequired,
-  sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
-};
+// PizzaBlock.propTypes = {
+//   name: PropTypes.string.isRequired,
+//   imageUrl: PropTypes.arrayOf(PropTypes.string).isRequired,
+//   price: PropTypes.number.isRequired,
+//   types: PropTypes.arrayOf(PropTypes.number).isRequired,
+//   sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
+// };
 
-PizzaBlock.defaultProps = {
-  name: "default",
-  price: "default",
-  types: [],
-  sizes: [],
-};
+// PizzaBlock.defaultProps = {
+//   name: "default",
+//   price: "default",
+//   types: [],
+//   sizes: [],
+// };
 
 export default PizzaBlock;
