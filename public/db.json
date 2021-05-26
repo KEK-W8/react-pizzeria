@@ -3,8 +3,11 @@
     {
       "id": 0,
       "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/1959b0fdf5f049fb9ec12cf05d535bc7_1875x1875.jpeg",
         "https://dodopizza-a.akamaihd.net/static/Img/Products/8a813e3b734e457c848a60fc70a100d5_1875x1875.jpeg",
-        "https://dodopizza-a.akamaihd.net/static/Img/Products/b42fbff70d844e359dccaf5786df5f3d_1875x1875.jpeg"
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/9763da8d31b64427bd4d75dbfe19038b_1875x1875.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/b42fbff70d844e359dccaf5786df5f3d_1875x1875.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/1e910a0db8214cc7977dbda51da015e7_1875x1875.jpeg"
       ],
       "name": "Чизбургер-пицца",
       "types": [0, 1],

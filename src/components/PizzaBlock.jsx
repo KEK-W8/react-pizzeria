@@ -16,19 +16,30 @@ function PizzaBlock({
   const availableTypes = ["традиционное", "тонкое"];
   const availableSizes = [26, 30, 40];
 
-  const [displayedImage, setDisplayedImage] = useState(imageUrl[0]);
+  const [displayedImage, setDisplayedImage] = useState(imageUrl[1]);
   const [selectedType, setSelectedType] = useState(types[0]);
   const [selectedSize, setSelectedSize] = useState(sizes[1]);
 
   useEffect(() => {
-    switch (selectedType) {
-      case types[1]:
-        setDisplayedImage(imageUrl[1]);
-        break;
-      default:
+    if (selectedType === types[0]) {
+      if (selectedSize === sizes[0]) {
         setDisplayedImage(imageUrl[0]);
+      }
+      if (selectedSize === sizes[1]) {
+        setDisplayedImage(imageUrl[1])
+      }
+      if (selectedSize === sizes[2]) {
+        setDisplayedImage(imageUrl[2])
+      }
+    } else {
+      if (selectedSize === sizes[1]) {
+        setDisplayedImage(imageUrl[3]);
+      }
+      if (selectedSize === sizes[2]) {
+        setDisplayedImage(imageUrl[4])
+      }
     }
-  }, [selectedType, types, imageUrl]);
+  }, [selectedType, selectedSize, sizes, types, imageUrl]);
 
   function handleSelectType(index) {
     setSelectedType(index);
@@ -42,15 +53,14 @@ function PizzaBlock({
   }
   function handleAddPizza() {
     const obj = {
-      id,
+      id: `${id}_${availableTypes[selectedType]}_${selectedSize}`,
       name,
       price,
-      imageUrl: imageUrl[displayedImage],
+      imageUrl: `${displayedImage}`,
       size: selectedSize,
       type: availableTypes[selectedType],
     };
     onClickAddPizza(obj);
-    window.alert(`Добавлено: ${obj.name} ${obj.size}см.`);
   }
 
   return (
