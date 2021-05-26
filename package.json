@@ -25,21 +25,14 @@
     "serve": "react-scripts start",
     "build": "react-scripts build",
     "start": "node server.js",
-    "json-server": "json-server --watch public/db.json --port=8000"
+    "json-server": "json-server --watch public/db.json --port=8080"
   },
   "eslintConfig": {
     "extends": [
       "react-app"
     ]
   },
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:8000",
-      "pathRewrite": {
-        "^/api": "/"
-      }
-    }
-  },
+  "proxy": "http://localhost:8080",
   "browserslist": {
     "production": [
       ">0.2%",
