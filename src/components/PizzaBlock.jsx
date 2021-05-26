@@ -65,7 +65,11 @@ function PizzaBlock({
 
   return (
     <div className="pizza-block">
-      <img className="pizza-block__image" src={displayedImage} alt="pizza" />
+      <img className={classNames("pizza-block__image", {
+        "small": selectedSize === sizes[0],
+        "medium": selectedSize === sizes[1],
+        "large": selectedSize === sizes[2],
+      })} src={displayedImage} alt="pizza" />
       <h4 className="pizza-block__title">{name}</h4>
       <div className="pizza-block__selector">
         <ul>

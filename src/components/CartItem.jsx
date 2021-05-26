@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 
 import Button from "./Button.jsx";
 
@@ -30,7 +31,11 @@ function CartItem({
     <div className="cart__item">
       <div className="cart__item-img">
         <img
-          className="pizza-block__image"
+            className={classNames("pizza-block__image", {
+              "small": size === 26,
+              "medium": size === 30,
+              "large": size === 40,
+            })}
           src={imageUrl}
           alt="Pizza"
         />
