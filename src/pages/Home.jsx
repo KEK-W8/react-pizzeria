@@ -13,14 +13,13 @@ import { addPizzaToCart } from "../redux/actions/cart";
 const categories = [
   { name: "Мясные", id: 1 },
   { name: "Вегетерианские", id: 2 },
-  { name: "Сырные", id: 3 },
-  { name: "Сладкие", id: 4 },
+  { name: "Новые", id: 3 },
 ];
 
 const sortFilters = [
-  { filter: "популярности", type: "popularity" },
-  { filter: "цене", type: "price" },
-  { filter: "алфавиту", type: "name" },
+  { filter: "популярности", type: "popularity", id: 1 },
+  { filter: "цене", type: "price", id: 2 },
+  { filter: "алфавиту", type: "name", id: 3 },
 ];
 
 function Home() {

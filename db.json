@@ -1,0 +1,260 @@
+{
+  "pizzas": [
+    {
+      "id": 0,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/1959b0fdf5f049fb9ec12cf05d535bc7_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/8a813e3b734e457c848a60fc70a100d5_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/9763da8d31b64427bd4d75dbfe19038b_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/b42fbff70d844e359dccaf5786df5f3d_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/1e910a0db8214cc7977dbda51da015e7_292x292.jpeg"
+      ],
+      "name": "Чизбургер-пицца",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 395,
+      "category": 1,
+      "popularity": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/3ded9cb1a7af4a87b61f99e6e460cae7_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/32ab88d1819048e285a91d91b9ef4451_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/26038e021f234c948a9a4148a1eb1b7c_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/35450855aa0d4b8fbd94571fa3bb7b3f_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/f6653926f8144e81928b1e613fe393f8_292x292.jpeg"
+      ],
+      "name": "Песто",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 445,
+      "category": 1,
+      "popularity": 1
+    },
+    {
+      "id": 2,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/bfd74faafe334102b94eef8c0873aef4_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/f80272ecb2a74d12b122b176d8cbe4f5_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/81cd9b2324f5456dbb3ce196f6e55119_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/35007b98bfa04fa7ae8f2375e7f7f3c4_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/251e359e24fb4aabbda9637a7791bb90_292x292.jpeg"
+      ],
+      "name": "Гавайская",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 395,
+      "category": 3,
+      "popularity": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/f4c69cd6-f8ba-4454-b493-a993a4be73cd.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/14414e03-0322-4751-a431-820c8ce84e58.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/1eeb2f52-57b3-4fc4-bca6-cd59cecbd130.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/51bbe308-7a61-47f2-b919-6fbc72797569.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/e1054e64-71be-4a4d-b77e-7e3faaa38815.jpg"
+      ],
+      "name": "Цыпленок барбекю",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 295,
+      "category": 1,
+      "popularity": 1
+    },
+    {
+      "id": 4,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/dd9cb28e-ede2-46cf-8e95-79d31e407819.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/3327d3dd-1feb-443f-97b6-731fa8e64fac.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/2861184d-f5e0-4cd6-bda3-37db3b17fe50.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/9e778774-4980-4cda-a7e6-a60aa6cc90e1.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/a6660cce-301c-40cb-901d-ddbd8705ed81.jpg"
+      ],
+      "name": "Пицца-пирог",
+      "types": [0, 1],
+      "sizes": [26, 30],
+      "price": 275,
+      "category": 2,
+      "popularity": 10
+    },
+    {
+      "id": 5,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/b1ffa66f2ebb4e959122e54eaa071109_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/26fa2948b6c74113afb9d09a3262fc26_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/08836aa27a9247f09f53bba3108471bf_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/75bf42ecf7814a6cbcfcfcbd507b011c_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/e60a8f52791e4c318da211106b31076b_292x292.jpeg"
+      ],
+      "name": "Ветчина и грибы",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 345,
+      "category": 1,
+      "popularity": 6
+    },
+    {
+      "id": 6,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/737841adb41c47738e435f4968221374_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/de3aa884d63f43ac86fde8aa60d0b762_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/e41f3f3dc88d47b786bb13877b84441c_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/28a6f181bf9b46b69af5b329b874ae88_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/9c54fca98c9f477b80bca352da4b2bf5_292x292.jpeg"
+      ],
+      "name": "Запеченное яблоко",
+      "types": [0, 1],
+      "sizes": [26, 30],
+      "price": 345,
+      "category": 2,
+      "popularity": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/21379561a76646f1945f1bc759c749b5_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/e8a8ded1f8154d11ab5065dc5208b187_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/147c3814bbb34a77afdbc66e9ef20ed7_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/80a1f29cb1f7432581778d466725e0bf_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/ab33bf72e7a644a0ae09584986ed3c1b_292x292.jpeg"
+      ],
+      "name": "Маргарита",
+      "types": [0, 1],
+      "sizes": [26, 30],
+      "price": 450,
+      "category": 2,
+      "popularity": 6
+    },
+    {
+      "id": 8,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/da60bf3d-c89b-4b3a-a0a7-61c4cd8f6a40.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/6d4e1c2c-1c81-40c6-95d9-0d19afcebcb5.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/6c08c574-3548-43bc-9744-9de178149ff4.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/73395395-e641-4f7a-9316-947c07debec8.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/78438601-d084-48a4-886f-edb5b0b9b235.jpg"
+      ],
+      "name": "Четыре сезона",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 395,
+      "category": 1,
+      "popularity": 4
+    },
+    {
+      "id": 9,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/69d38b6868e749369ae1427339236512_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/7a497170e99a435f8535f33c3ebaddc3_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/7a73802dc5204349b0d6231f9f5733df_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/7209fcf80a9b4a75a0d61d6ba8ae298a_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/63b64dec46084c328c3a36f82b420a81_292x292.jpeg"
+      ],
+      "name": "Овощи и грибы",
+      "types": [0, 1],
+      "sizes": [26, 30],
+      "price": 285,
+      "category": 2,
+      "popularity": 7
+    },
+    {
+      "id": 10,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/c0980778a54a4c4ea70f9068f917155c_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/78e732c620334b5e8e5d821685c1c4b5_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/0fad5510207d4edda52ba2de3885b1a3_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/faf101d6146147fcba1322d60e365fb9_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/929d2702b01e4d47819d9498f9f2e223_292x292.jpeg"
+      ],
+      "name": "Микс",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 585,
+      "category": 3,
+      "popularity": 2
+    },
+    {
+      "id": 11,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/822812a1f5c74903bc226fe87d3b3746_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/2d674f990a794efe8106c4a03b58310d_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/100e39cf1d854fb985d9b335b10b8c52_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/d94db1aa9de243558d2b754c7532e5a8_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/51aa6fc6d60942a682e6209f1d5328f4_292x292.jpeg"
+      ],
+      "name": "Желанная",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 485,
+      "category": 1,
+      "popularity": 4
+    },
+    {
+      "id": 12,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/f65c26c8409644e9b2ebb412f9c71189_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/0fbe5a8c798d4c548c193c34ffb1b785_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/2122de1dc5424ef7834d4d855035ea43_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/bdfbddf580ac4feab615207f9074ecef_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/112be60066d544aeaf415c1df19e48f1_292x292.jpeg"
+      ],
+      "name": "Двойной цыпленок",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 435,
+      "category": 3,
+      "popularity": 4
+    },
+    {
+      "id": 13,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/a948dd300a7f4ab1b2c924a96bc83c0d_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/522d6ea5e38d42049b214a79dad45d45_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/45ba27b6620d4f65a1d1b671d6308db7_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/e8deacd8ee7442b182c5973ff87f0917_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/e90362b3e30744048f694504c8cad41a_292x292.jpeg"
+      ],
+      "name": "Нежный лосось",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 555,
+      "category": 3,
+      "popularity": 4
+    },
+    {
+      "id": 14,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/ecd9d5b3-0cfc-4138-9559-18d9631fe8aa.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/dc5dc4e9-932a-4abf-9472-dfb6326ea9ee.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/17477ad0-00ea-47eb-aa70-e623e739ce0d.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/2015a0cd-4d5f-4527-b784-10f59486c66c.jpg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/d7bfb973-6652-45fe-a222-39031d869220.jpg"
+      ],
+      "name": "Мексиканская",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 355,
+      "category": 1,
+      "popularity": 4
+    },
+    {
+      "id": 15,
+      "imageUrl": [
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/654c4299d2e84b8b84f276727629af8a_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/c2a25ef27bf24b6f84e034e684f32fa7_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/0cd259e92b104833b49c26abaa0ab218_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/b5beeb33354f4f039a50e618b6819c7d_292x292.jpeg",
+        "https://dodopizza-a.akamaihd.net/static/Img/Products/fd848ce2c93d4b7b84ae7034febcf02d_292x292.jpeg"
+      ],
+      "name": "Карбонара",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 475,
+      "category": 1,
+      "popularity": 3
+    }
+  ]
+}
