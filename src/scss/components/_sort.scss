@@ -3,6 +3,7 @@
 .sort {
   margin-left: 20px;
   position: relative;
+  z-index: 10;
   &__label {
     display: flex;
     align-items: center;
