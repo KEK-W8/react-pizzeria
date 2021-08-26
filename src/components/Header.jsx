@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import CartButton from "./CartButton.jsx";
@@ -6,6 +6,12 @@ import CartButton from "./CartButton.jsx";
 import reactLogo from "../assets/img/react-logo.png";
 
 function Header() {
+  const title = "REACT PIZZERIA";
+
+  useEffect(() => {
+    document.title = title;
+  }, []);
+
   return (
     <div className="header">
       <div className="container">
@@ -13,7 +19,7 @@ function Header() {
           <div className="header__logo">
             <img width="38" src={reactLogo} alt="React logo" />
             <div>
-              <h1>React Pizza</h1>
+              <h1>{title}</h1>
               <p>веб-пиццерия на react.js</p>
             </div>
           </div>
